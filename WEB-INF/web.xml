@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <servlet-name>servletDemo1</servlet-name>
+    <servlet-class>day06.servletDemo1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>servletDemo2</servlet-name>
+    <servlet-class>day06.servletDemo2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>servletDemo3</servlet-name>
+    <servlet-class>day07.servletDemo3</servlet-class>
+  </servlet>
+
+
+
+  <servlet-mapping>
+    <servlet-name>servletDemo1</servlet-name>
+    <url-pattern>/aaa</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>servletDemo2</servlet-name>
+    <url-pattern>/bbb</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>servletDemo3</servlet-name>
+    <url-pattern>/ccc</url-pattern>
+  </servlet-mapping>
+
+</web-app>
